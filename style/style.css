@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --title-color: rgb(19, 19, 19);
+  --subtitle-color: rgb(114, 114, 114);
+  --btn-color: rgb(255, 144, 14);
+}
+body {
+  font-size: 62.5%;
+  font-family: "Work Sans";
+}
+.btn {
+  background-color: var(--btn-color);
+  color: #fff;
+  padding: 2rem 2.5rem;
+  border-radius: 0.8rem;
+}
+a{
+  text-decoration: none;
+}

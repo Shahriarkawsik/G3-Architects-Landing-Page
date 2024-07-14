@@ -1,0 +1,72 @@
+.navBar-section {
+  margin: 3rem 10rem 9rem 10rem;
+}
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navBar-logo {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 4.24rem;
+}
+.navBar ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 2px solid var(--btn-color); */
+}
+.navBar ul li {
+  list-style-type: none;
+  margin: 0 1.5rem;
+}
+.navBar ul li a {
+  color: rgb(66, 66, 66);
+  font-size: 1.44rem;
+  font-weight: 500;
+  line-height: 2.08rem;
+}
+@media screen and (max-width: 767px) {
+  .navBar-section {
+    margin: 0.5rem 1rem 3rem;
+  }
+  .navBar-logo {
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 1rem;
+  }
+  .navBar ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .navBar ul li a {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.18rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .navBar-section {
+    margin: 2.5rem 2.5rem 3rem;
+  }
+  .navBar-logo {
+    font-size: 2.3rem;
+    font-weight: 700;
+    line-height: 1rem;
+  }
+  .navBar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid var(--btn-color); */
+  }
+  .navBar ul li {
+    margin: 0 1rem;
+  }
+  .navBar ul li a {
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1.18rem;
+  }
+}
