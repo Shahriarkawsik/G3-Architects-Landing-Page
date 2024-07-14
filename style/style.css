@@ -17,9 +17,15 @@ body {
 .btn {
   background-color: var(--btn-color);
   color: #fff;
-  padding: 2rem 2.5rem;
+  padding: 1.6rem 2rem;
   border-radius: 0.8rem;
 }
-a{
+a {
   text-decoration: none;
+}
+.center-align {
+  text-align: center;
+}
+.hidden{
+  display: none;
 }
