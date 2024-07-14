@@ -34,7 +34,8 @@ header {
 }
 @media screen and (max-width: 767px) {
   .navBar-section {
-    margin: 0.5rem 1rem 3rem;
+    /* margin: 0.5rem 1rem 3rem; */
+    padding: 1rem 1.1rem 0 1.3rem;
   }
   .navBar-logo {
     font-size: 1.3rem;
