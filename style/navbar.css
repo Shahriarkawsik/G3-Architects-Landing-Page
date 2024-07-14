@@ -34,13 +34,24 @@ header {
 }
 @media screen and (max-width: 767px) {
   .navBar-section {
-    /* margin: 0.5rem 1rem 3rem; */
-    padding: 1rem 1.1rem 0 1.3rem;
+    padding: 2rem 1.1rem 0 1.3rem;
+  }
+  .navBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
   }
   .navBar-logo {
-    font-size: 1.3rem;
+    text-align: center;
+    font-size: 2rem;
     font-weight: 700;
     line-height: 1rem;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+  }
+  .navBar-list li {
+    display: none;
   }
   .navBar ul {
     display: flex;
