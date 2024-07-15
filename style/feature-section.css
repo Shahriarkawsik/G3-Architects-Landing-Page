@@ -1,43 +1,182 @@
 .feature-section {
-  /* width: 68.65%; */
-  width: 70%;
-  margin: 6.8rem auto 10.4rem;
+  width: 75%;
+  /* margin: 10.4rem auto; */
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
-.feature-images {
-  width: 50.72%;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1.92rem;
+.feature-container {
+  width: 41%;
 }
-.feature-images img {
-  width: 100%;
-}
-.feature-description {
-  /* width: 40.74%; */
-  width: 43.74%;
-}
+
 .feature-title {
-  font-size: 3rem;
+  border-left: 5px solid var(--btn-color);
+  padding-left: 16.8px;
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 4.5rem;
 }
 .feature-subtitle {
-  font-size: 1rem;
-  line-height: 1.5rem;
+  margin: 1.92rem 0 2.4rem;
 }
-.fts-1 {
-  color: var(--subtitle-color);
+.feature-card-container {
+  padding: 2.4rem 3.36rem 2.4rem 2.4rem;
+  border-radius: 8px;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.08);
+  background: rgb(255, 255, 255);
+  margin-top: 2rem;
 }
-.fts-2 {
-  color: var(--btn-color);
+.feature-card-title {
+  margin-bottom: 0.8rem;
 }
-.feature-subtitle {
-  margin: 1.92px 0 2.56rem;
+.feature-image {
+  /* width: 50%; */
+  /* border: 2px solid orangered; */
+  position: relative;
 }
 .feature-btn {
-  padding: 1.2rem 1.5rem;
+  bottom: 0px;
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 5.6rem;
+  margin-bottom: 0;
+  position: absolute;
+  z-index: 11;
 }
-.feature-btn a {
-  font-size: 1.3rem;
+.f-b-s {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 3.2rem;
+}
+.feature-image img {
+  width: 88.5%;
+  height: 92.73%;
+  position: absolute;
+  right: 0;
+}
+@media screen and (max-width: 767px) {
+  .feature-section {
+    width: 90%;
+    /* margin: 10.4rem auto; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+  }
+  .feature-container {
+    /* width: 41%; */
+    width: 100%;
+  }
+
+  .feature-title {
+    border-left: 5px solid var(--btn-color);
+    padding-left: 10.8px;
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 4rem;
+  }
+  /*  */
+  .feature-subtitle {
+    margin: 1rem 0 2.4rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+  .feature-card-container {
+    padding: 2.4rem 3.36rem 2.4rem 2.4rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.08);
+    background: rgb(255, 255, 255);
+    margin-top: 2rem;
+  }
+  .feature-card-title {
+    margin-bottom: 0.8rem;
+  }
+  .feature-card-subtitle {
+    font-size: 1.2rem;
+    color: rgba(20, 20, 20, 0.7);
+    font-weight: 500;
+  }
+  .feature-image {
+    width: 100%;
+    border: 2px solid orangered;
+    /* position: relative; */
+  }
+  .feature-btn {
+    bottom: 0px;
+    font-size: 5.2rem;
+    font-weight: 700;
+    line-height: 5.6rem;
+    margin-bottom: 0;
+    /* position: absolute; */
+    z-index: 11;
+  }
+  .f-b-s {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 3.2rem;
+  }
+  .feature-image {
+    width: 100%;
+  }
+  .feature-image img {
+    width: 88.5%;
+    /* height: 92.73%; */
+    /* position: absolute;
+    right: 0; */
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .feature-section {
+    width: 95%;
+    margin: 10.4rem auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .feature-container {
+    width: 45%;
+  }
+
+  .feature-title {
+    border-left: 5px solid var(--btn-color);
+    padding-left: 16px;
+    font-size: 4.1rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+  }
+  .feature-subtitle {
+    margin: 1.92rem 0 2.4rem;
+  }
+  .feature-card-container {
+    padding: 2.4rem 3.36rem 2.4rem 2.4rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.08);
+    background: rgb(255, 255, 255);
+    margin-top: 2rem;
+  }
+  .feature-card-title {
+    margin-bottom: 0.8rem;
+  }
+  .feature-image {
+    width: 50%;
+    /* border: 2px solid orangered; */
+    position: relative;
+  }
+  .feature-btn {
+    bottom: 0px;
+    font-size: 5.2rem;
+    font-weight: 700;
+    line-height: 5.6rem;
+    margin-bottom: 0;
+    position: absolute;
+    z-index: 11;
+  }
+  .f-b-s {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 3.2rem;
+  }
+  .feature-image img {
+    width: 88.5%;
+    height: 92.73%;
+    position: absolute;
+    right: 0;
+  }
 }
